@@ -1,0 +1,62 @@
+body
+	{
+		background-color: #000000 ;
+		font-family: "Calibri" ;
+		font-size: 13pt ;
+		color: white ;
+	}
+h1
+	{
+		 text-align: center;
+		 color: #FF0101 ;
+	}
+h2
+	{
+		font-family: "Times New Roman" ;
+		color: #FF0101 ;
+	}
+h4
+	{
+		color: #FF0101 ;
+	}
+u
+	{
+		color: #FF0101 ;
+	}
+table
+	{
+		position: absolute ;
+		left: 25% ;
+		margin-top: 80px ;
+		border-color: #FF0101 ;
+	}
+a:visited
+	{
+		color: #FF0101 ;
+	}
+a:link
+	{
+		font-size: 20pt ;
+		text-decoration: none;
+
+	}
+hr
+	{
+		border-color: blue ;
+	}
+h1
+	{
+		border: 1xp solid red ;
+		padding: 25px 50px 60px 100px ;
+		background-color: grey ;
+	}
+div
+	{
+		font-size: 16pt ;
+	}
+span
+	{
+		text-decoration: underline ;
+		color: #FF91F5 ;
+		text-shadow: #FF00E8 2px 2px ;
+	}
