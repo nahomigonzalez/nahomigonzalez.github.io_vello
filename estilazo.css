@@ -1,62 +1,110 @@
-body
+body /* Cambia todo lo que esta dentro de body */
 	{
 		background-color: #000000 ;
-		font-family: "Calibri" ;
-		font-size: 13pt ;
+		font-family: 'Press Start 2P', cursive; /* Cambiar el tipo de letra */
+		font-size: 13pt ; /* Cambiar el tamaño de letra */
 		color: white ;
 	}
-h1
-	{
-		 text-align: center;
-		 color: #FF0101 ;
-	}
-h2
-	{
-		font-family: "Times New Roman" ;
-		color: #FF0101 ;
-	}
-h4
-	{
-		color: #FF0101 ;
-	}
-u
-	{
-		color: #FF0101 ;
-	}
-table
-	{
-		position: absolute ;
-		left: 25% ;
-		margin-top: 80px ;
-		border-color: #FF0101 ;
-	}
-a:visited
-	{
-		color: #FF0101 ;
-	}
-a:link
-	{
-		font-size: 20pt ;
-		text-decoration: none;
 
-	}
-hr
-	{
-		border-color: blue ;
-	}
 h1
 	{
+		text-align: center; /* Centra la letra */
+		color: #FF0101 ;
+		font-family: 'Estonia', cursive;
 		border: 1xp solid red ;
 		padding: 25px 50px 60px 100px ;
 		background-color: grey ;
 	}
-div
+
+h2
+	{
+		
+		color: #FF0101 ;
+		font-family: 'Nanum Gothic Coding', monospace;
+	}
+
+h4
+	{
+		color: #FF0101 ;
+	}
+
+u
+	{
+		color: #FF0101 ;
+	}
+
+table
+	{
+		border-color: #FF0101 ;
+		margin-left: 50px ;
+		vertical-align: middle;
+		text-align: center;
+		font-family: 'Monoton', cursive;
+	}
+
+a:visited
+	{
+		color: #FF0101 ;
+	}
+
+a:link
+	{
+		font-size: 20pt ;
+		text-decoration: none;
+		font-family: 'Creepster', cursive;
+
+	}
+
+hr
+	{
+		border-color: blue ;
+	}
+
+div /* Utilizase para párrafos */
 	{
 		font-size: 16pt ;
+		margin-left: 10px ;
 	}
-span
+
+span /* Utilizase para palabras o frases */
 	{
 		text-decoration: underline ;
 		color: #FF91F5 ;
 		text-shadow: #FF00E8 2px 2px ;
+	}
+
+.marron
+	{
+		color: brown ;
+		background-color: peach ;
+	}
+
+.panda
+	{
+		position: absolute ; /* Centra la tabla */
+		padding: 200px ;
+		left: 25% ;
+		margin-top: 15px ;
+		border-color: #FF0101 ;
+	}
+
+.tarde
+	{
+		float: left;
+		text-align: center ;
+	}
+
+.hoy
+	{
+		float: right;
+		margin-right: 5em;
+	}
+
+svg
+	{
+		margin-left:  5em ;
+	}
+.juego
+	{
+		margin-left: 5em ;
 	}
